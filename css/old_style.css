@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #ffa722;
+}
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.tamano__formulario{
+    width: 500px;
+    margin: 10px auto;
+    border-color: #1465bb solid;
+    border-radius: 10px;
+    padding: 20px;
+    /*para darle tamaño a las tarjetas de ventas*/
+}
+.logoSize{
+    width: 60px;
+    border-radius: 10px;
+    /*para ubicar el logo en el navbar*/
+}
+.containerventas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    /*esto es para la disposición de mis tarjetas*/
+}
+.containerSobrenosotros{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+.encerrartodo{
+    background-color: #1465bb;
+    border: #ffa722 2px solid;
+    border-radius: 10px;
+}
+.colortrial{
+    background-color: #1465bb;
+    font-weight: bold;
+    border-radius: 10px;
+    border-color: #ffa722;
+}
